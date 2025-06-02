@@ -114,9 +114,35 @@ The inside.tesla.com/en-US/learning/dashboard site redirects to the Microsoft Ac
 
 All of which redirect to auth.tesla.com (Tesla account login page)
 
+### Public Backup / Config Files
+
 `site:tesla.com intitle:"index of"` yields nothing (aimed at finding directory listings like this: [https://docs.oasis-open.org/](https://docs.oasis-open.org/)]
 
-### Public Backup / Config Files
+`site:tesla.com inurl:old` yields one result: [https://tesla.com/en_MY/support/referral-program-old](https://tesla.com/en_MY/support/referral-program-old)
+
+`site:tesla.com inurl:test` shows results about test drives, and not any leftover test directories on site.
+
+`site:tesla.com inurl:dev` yields one new endpoint that also points to the ADFS login page. Other than that, nothing of interest.
+
+![image](https://github.com/user-attachments/assets/1d0a33da-7174-48d5-ae73-379dd6a07615)
+
+`site:tesla.com inurl:"prod"` fetches two seemingly broken pages, which look like the page you will get after you sign in (judging by the `'s Tesla`, which looks like it takes a name before it, and the account management options)
+
+- [https://www.tesla.com/ko_KR/teslaaccount/prod](https://www.tesla.com/ko_KR/teslaaccount/prod)
+- [https://www.tesla.com/fr_CA/teslaaccount/prod](https://www.tesla.com/fr_CA/teslaaccount/prod)
+
+![image](https://github.com/user-attachments/assets/5577f3e7-a7a7-4ee1-8fc7-85ceeaeb3419)
+![image](https://github.com/user-attachments/assets/290f795a-9f8a-46a4-a4b4-0d5ab230d6e9)
+
+This page doesn't exist in other languages (say, en_US. It returns 404)
+
+`site:tesla.com inurl:"config"` yields just one result, which seems to be the subscription agreement that will be displayed when you try to sign up for "Drive Anywhere" on a Tesla app: [https://www.tesla.com/app-assets-config/pdf/Drive_Anywhere_Agreement.pdf](https://www.tesla.com/app-assets-config/pdf/Drive_Anywhere_Agreement.pdf)
+
+`site:tesla.com ext:` `env`, `yml`, `yaml`, `config`, `conf`,
+
 ### Exposed Logs / Errors
+
+
+
 ### Emails & Contact Info
 ### Git Folders and Env Files
