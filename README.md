@@ -42,6 +42,8 @@ Links:
 - [https://service.tesla.com/docs/ServiceBulletins/External/SB/CLAIM_FORM_DEALER_EN_foam_detachment_Model_Y.xlsx](https://service.tesla.com/docs/ServiceBulletins/External/SB/CLAIM_FORM_DEALER_EN_foam_detachment_Model_Y.xlsx)
 - [https://service.tesla.com/docs/ServiceBulletins/External/SB/CLAIM_FORM_DEALER_EN_foam_detachment_Model_3.xlsx](https://service.tesla.com/docs/ServiceBulletins/External/SB/CLAIM_FORM_DEALER_EN_foam_detachment_Model_3.xlsx)
 
+`site:tesla.com ext:ods` gives bing chilling [https://www.tesla.com/sites/default/files/downloads/zh_TW/%E5%A0%B1%E5%BB%A2%E6%8F%9B%E6%96%B0%E8%BB%8A%E6%98%8E%E7%B4%B0%E8%A1%A8.ods](https://www.tesla.com/sites/default/files/downloads/zh_TW/%E5%A0%B1%E5%BB%A2%E6%8F%9B%E6%96%B0%E8%BB%8A%E6%98%8E%E7%B4%B0%E8%A1%A8.ods)
+
 Seems to be two forms, a protected product number lookup sheet, and a list of serial numbers whose dampers are suspected to be defective
 
 ![image](https://github.com/user-attachments/assets/b13dfb92-f87e-47d6-a67f-59b8fc23659d)
@@ -56,7 +58,9 @@ Some letter templates, and surveys, in different languages:
 - [https://www.tesla.com/sites/default/files/support/Ihr-Umweltbonus/A-umwelt.docx](https://www.tesla.com/sites/default/files/support/Ihr-Umweltbonus/A-umwelt.docx)
 - [https://digitalassets.tesla.com/tesla-contents/raw/upload/EV_Installation_HOA_Request.docx](https://digitalassets.tesla.com/tesla-contents/raw/upload/EV_Installation_HOA_Request.docx)
 
-#### PPT(X) files were not found.
+####  PPT(X) files were not found.
+
+#### `site:tesla.com ext:md` Markdown files were not found
 
 #### `site:tesla.com filetype:txt` returns the site's robots.txt and a file called security.txt containing information on where to report vulnerabilities.
 
