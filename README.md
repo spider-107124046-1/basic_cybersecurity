@@ -138,9 +138,13 @@ This page doesn't exist in other languages (say, en_US. It returns 404)
 
 `site:tesla.com inurl:"config"` yields just one result, which seems to be the subscription agreement that will be displayed when you try to sign up for "Drive Anywhere" on a Tesla app: [https://www.tesla.com/app-assets-config/pdf/Drive_Anywhere_Agreement.pdf](https://www.tesla.com/app-assets-config/pdf/Drive_Anywhere_Agreement.pdf)
 
-`site:tesla.com ext:` `env`, `yml`, `yaml`, `config`, `conf`,
+`site:github.com (ext:env OR ext:yml OR ext:yaml OR ext:toml OR ext:config OR ext:conf OR ext:xml)` returns 0 results. *Clean*
 
 ### Exposed Logs / Errors
+
+`site:tesla.com filetype:log` - 0 results.
+
+`site:tesla.com inurl:"/log/"` - "Log Technician, Field Reliability Engineering"
 
 
 
