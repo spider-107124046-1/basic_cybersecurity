@@ -146,7 +146,7 @@ This page doesn't exist in other languages (say, en_US. It returns 404)
 
 `site:tesla.com (ext:env OR ext:yml OR ext:yaml OR ext:toml OR ext:config OR ext:conf OR ext:xml)` returns 0 results. *Clean*
 
-`site:tesla.com "api"` returned many things about their Fleet API, but going to the 6th or 7th page of the result, we start seeing PDF files regarging Damage Disclosure
+`site:tesla.com "api"` returned many things about their Fleet API, but going to the 6th or 7th page of the result, we start seeing PDF files regarding Damage Disclosure
 
 ![image](https://github.com/user-attachments/assets/dc0cf142-baca-4099-a63d-f3c0b4973e39)
 
