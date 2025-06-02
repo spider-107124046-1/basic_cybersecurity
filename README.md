@@ -2,7 +2,7 @@
 
 ## Target: **[tesla.com](https://tesla.com)**
 
-### Public Documents (PDF, XLSX, DOCX,etc)
+### Public Documents (PDF, XLSX, DOCX, etc.,)
 
 #### `site:tesla.com filetype:pdf` 
 
@@ -42,11 +42,11 @@ Links:
 - [https://service.tesla.com/docs/ServiceBulletins/External/SB/CLAIM_FORM_DEALER_EN_foam_detachment_Model_Y.xlsx](https://service.tesla.com/docs/ServiceBulletins/External/SB/CLAIM_FORM_DEALER_EN_foam_detachment_Model_Y.xlsx)
 - [https://service.tesla.com/docs/ServiceBulletins/External/SB/CLAIM_FORM_DEALER_EN_foam_detachment_Model_3.xlsx](https://service.tesla.com/docs/ServiceBulletins/External/SB/CLAIM_FORM_DEALER_EN_foam_detachment_Model_3.xlsx)
 
-`site:tesla.com ext:ods` gives bing chilling [https://www.tesla.com/sites/default/files/downloads/zh_TW/%E5%A0%B1%E5%BB%A2%E6%8F%9B%E6%96%B0%E8%BB%8A%E6%98%8E%E7%B4%B0%E8%A1%A8.ods](https://www.tesla.com/sites/default/files/downloads/zh_TW/%E5%A0%B1%E5%BB%A2%E6%8F%9B%E6%96%B0%E8%BB%8A%E6%98%8E%E7%B4%B0%E8%A1%A8.ods)
-
 Seems to be two forms, a protected product number lookup sheet, and a list of serial numbers whose dampers are suspected to be defective
 
 ![image](https://github.com/user-attachments/assets/b13dfb92-f87e-47d6-a67f-59b8fc23659d)
+
+`site:tesla.com ext:ods` gives bing chilling (as the only result) [https://www.tesla.com/sites/default/files/downloads/zh_TW/%E5%A0%B1%E5%BB%A2%E6%8F%9B%E6%96%B0%E8%BB%8A%E6%98%8E%E7%B4%B0%E8%A1%A8.ods](https://www.tesla.com/sites/default/files/downloads/zh_TW/%E5%A0%B1%E5%BB%A2%E6%8F%9B%E6%96%B0%E8%BB%8A%E6%98%8E%E7%B4%B0%E8%A1%A8.ods)
 
 #### `site:tesla.com filetype:docx`
 
@@ -58,7 +58,9 @@ Some letter templates, and surveys, in different languages:
 - [https://www.tesla.com/sites/default/files/support/Ihr-Umweltbonus/A-umwelt.docx](https://www.tesla.com/sites/default/files/support/Ihr-Umweltbonus/A-umwelt.docx)
 - [https://digitalassets.tesla.com/tesla-contents/raw/upload/EV_Installation_HOA_Request.docx](https://digitalassets.tesla.com/tesla-contents/raw/upload/EV_Installation_HOA_Request.docx)
 
-####  PPT(X) files were not found.
+`site:tesla.com filetype:odt OR filetype:fodt` returned 0 results
+
+#### `site:tesla.com filetype:ppt OR filetype:pptx OR filetype:odp OR filetype:fodp` PPT(X)/ODP files were not found.
 
 #### `site:tesla.com ext:md` Markdown files were not found
 
@@ -142,15 +144,49 @@ This page doesn't exist in other languages (say, en_US. It returns 404)
 
 `site:tesla.com inurl:"config"` yields just one result, which seems to be the subscription agreement that will be displayed when you try to sign up for "Drive Anywhere" on a Tesla app: [https://www.tesla.com/app-assets-config/pdf/Drive_Anywhere_Agreement.pdf](https://www.tesla.com/app-assets-config/pdf/Drive_Anywhere_Agreement.pdf)
 
-`site:github.com (ext:env OR ext:yml OR ext:yaml OR ext:toml OR ext:config OR ext:conf OR ext:xml)` returns 0 results. *Clean*
+`site:tesla.com (ext:env OR ext:yml OR ext:yaml OR ext:toml OR ext:config OR ext:conf OR ext:xml)` returns 0 results. *Clean*
+
+`site:tesla.com "api"` returned many things about their Fleet API, but going to the 6th or 7th page of the result, we start seeing PDF files regarging Damage Disclosure
+
+![image](https://github.com/user-attachments/assets/dc0cf142-baca-4099-a63d-f3c0b4973e39)
+
+
+![image](https://github.com/user-attachments/assets/5692506a-e6e5-4f21-b6cc-aaae60f47850)
+
+These PDFs do not seem to have personally identifiable information other than the vehicle serial numbers.
 
 ### Exposed Logs / Errors
 
 `site:tesla.com filetype:log` - 0 results.
 
-`site:tesla.com inurl:"/log/"` - "Log Technician, Field Reliability Engineering"
+`site:tesla.com inurl:"log"` - "Log Technician, Field Reliability Engineering"
 
+![image](https://github.com/user-attachments/assets/1ffa2cd8-8852-41f7-840c-3aaca07a8cc9)
 
+`site:tesla.com inurl:"logs"` - a single press release and nothing else
+
+![image](https://github.com/user-attachments/assets/047518af-4077-4bf9-9258-89ba57fb7f8e)
+
+`site:tesla.com inurl:error` - Gives login error pages in many locales
+
+![image](https://github.com/user-attachments/assets/06d793af-b871-491c-a851-48de3c8ab087)
+
+`site:tesla.com "stacktrace"` - 0 results.
+
+`site:tesla.com "promise"` (result of an asynchronous operation in js) - very mysterious result that redirects to tesla account login page: [https://tesla.com/en_NZ/file/son-man-promise-familyjpg](https://tesla.com/en_NZ/file/son-man-promise-familyjpg)
+
+![image](https://github.com/user-attachments/assets/6dab25a0-2c2c-4fc9-a63e-7998cb82a1e2)
+
+Other than that its all results about their empty promises to customers.
 
 ### Emails & Contact Info
+
+If we go back to our ir.tesla.com subdomain, we'll get TONS of contact info from all the investor documentation, letters and legal documents on there. I will attach screenshots of a few
+
+
+
 ### Git Folders and Env Files
+
+`site:github.com ext:env` as we've already seen, returns 0 results.
+
+
