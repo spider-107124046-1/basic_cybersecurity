@@ -181,12 +181,38 @@ Other than that its all results about their empty promises to customers.
 
 ### Emails & Contact Info
 
-If we go back to our ir.tesla.com subdomain, we'll get TONS of contact info from all the investor documentation, letters and legal documents on there. I will attach screenshots of a few
+`site:tesla.com intext:"email"` We have many regional service phone lines and email addresses in the search results. This is publicly available information and is of no interest to us (unless we are making a very useless excel sheet of all tesla support regions and email addresses.) 
 
+![image](https://github.com/user-attachments/assets/6894e119-731c-4b15-9739-9bb539ccaeae)
 
+If we go back to our ir.tesla.com subdomain, we'll get TONS of contact info from all the investor documentation, letters and legal documents on there. I will attach screenshots of a few. As it is out of the scope of this exercise, I won't be opening any of those PDFs to search for contacts. I will only post screenshots here of indexed search results.
+
+`site:ir.tesla.com filetype:pdf email OR Contact`
+
+![image](https://github.com/user-attachments/assets/7892d1bc-53fb-4442-aeb6-e49b8c230fa0)
+
+![image](https://github.com/user-attachments/assets/7111fbd4-ffa8-4c1f-a5e3-7c61d99dacb8)
+
+![image](https://github.com/user-attachments/assets/c8078d59-3d4f-4e28-88bf-c29856ddfc97)
+
+![image](https://github.com/user-attachments/assets/dc703fd3-227a-4234-9eca-3fd80d4aa208)
+
+![image](https://github.com/user-attachments/assets/a06de790-6026-4759-b2c6-9d5ebd6c2245)
 
 ### Git Folders and Env Files
 
-`site:github.com ext:env` as we've already seen, returns 0 results.
+`site:tesla.com ext:env` as we've already seen, returns 0 results.
 
+`site:tesla.com "src"` no relevant results
 
+`site:tesla.com inurl:repo OR inurl:repository` 0 results
+
+`site:tesla.com inurl:git` 0 results
+
+`site:tesla.com ext:py OR ext:c OR ext:java OR ext:rs OR ext:js OR ext:kt` well we tried
+
+`site:tesla.com ".git" OR ".gitignore" OR ".svn"` pulls stuff from Fleet API documentation. No leaked source code here
+
+If you really think about it, the whole site is still open source ¯\_(ツ)_/¯
+
+![ezgif-4b8a3e47d34ef3](https://github.com/user-attachments/assets/09672ad9-6ea8-4699-bd85-ad8427882feb)
