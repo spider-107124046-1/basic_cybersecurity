@@ -216,3 +216,8 @@ If we go back to our ir.tesla.com subdomain, we'll get TONS of contact info from
 If you really think about it, the whole site is still open source ¯\\\_(ツ)_/¯
 
 ![ezgif-4b8a3e47d34ef3](https://github.com/user-attachments/assets/09672ad9-6ea8-4699-bd85-ad8427882feb)
+
+Google's reward for me completing this task:
+
+![image](https://github.com/user-attachments/assets/0444b901-cc4d-4856-a9be-d45ed9a96f57)
+
