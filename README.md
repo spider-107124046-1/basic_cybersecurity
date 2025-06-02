@@ -87,6 +87,35 @@ The notable results from partners.tesla.com and toolbox.tesla.com are properly g
 ![image](https://github.com/user-attachments/assets/50de001f-32ce-43d1-9bb0-40757cea56e8)
 
 ### Login Pages / Admin Panels
+
+`site:tesla.com inurl:admin` - no result (ie., no portals/panels found)
+
+`site:tesla.com inurl:login` - yields publicly accessible Tesla account login portals (like the gatekeeping one aforementioned). Additionally, this gives results from [feedback.tesla.com](https://feedback.tesla.com/login) that leads to Tesla's Microsoft adfs and organization account login portals:
+
+![image](https://github.com/user-attachments/assets/bb50d391-08c4-46ed-990f-9c24de6f51fb)
+![image](https://github.com/user-attachments/assets/1ed01575-5099-4ef1-9d54-f7ec80256c0e)
+![image](https://github.com/user-attachments/assets/30695e4a-abb7-4a8d-a2b8-a204b7e288f8)
+
+`site:feedback.tesla.com` gives [one feedback form](https://feedback.tesla.com/jfe/form/SV_ea4r6Mwcc3aXVBk) and the rest lead to the same identity provider select link shown above.
+
+`site:tesla.com intitle:"login"`, `site:tesla.com intitle:"panel"`, `site:tesla.com inurl:"panel"`, `site:tesla.com intitle:"portal"`, `site:tesla.com inurl:"portal"` all yield results already seen/irreleveant results.
+
+`site:tesla.com inurl:dashboard` fetches some unique endpoints:
+
+![image](https://github.com/user-attachments/assets/48415023-f137-48bd-88fb-be3c36a820ab)
+
+The inside.tesla.com/en-US/learning/dashboard site redirects to the Microsoft Account login page for Tesla organization, the warp.tesla.com/dashboard site redirects to the older Microsoft Active Directory Federation Services (adfs) login page.
+
+`site:tesla.com inurl:auth` fetches more endpoints:
+
+![image](https://github.com/user-attachments/assets/966f2fda-e528-4a4d-aec5-df38c2fa92f7)
+![image](https://github.com/user-attachments/assets/9fd8e021-0ac4-493c-a6d6-77eb5999fb5a)
+![image](https://github.com/user-attachments/assets/330f1a6f-973c-4bc5-a340-532abee21ec3)
+
+All of which redirect to auth.tesla.com (Tesla account login page)
+
+`site:tesla.com intitle:"index of"` yields nothing (aimed at finding directory listings like this: [https://docs.oasis-open.org/](https://docs.oasis-open.org/)]
+
 ### Public Backup / Config Files
 ### Exposed Logs / Errors
 ### Emails & Contact Info
